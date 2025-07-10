@@ -1,0 +1,87 @@
+/* Font Styles */
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, nav ul, .cta-button {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #0056b3;
+  border-radius: 4px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #004080;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  nav {
+    margin-top: -1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #007bff;
+  }
+
+  nav ul li {
+    width: 100%;
+    background-color: #0056b3;
+    margin-top: 3px;
+    border-radius: 4px;
+  }
+}

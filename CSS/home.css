@@ -1,0 +1,74 @@
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #e3f2fd;
+}
+
+.latest-courses h2 {
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.cta-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+/* Course Gallery */
+.course-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap; 
+  /* Allow items to wrap onto 
+  new lines on smaller screens */
+}
+
+.course-item {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px; 
+  margin: 10px;
+}
+
+.course-item:hover{
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+.course-item img {
+  width: 100%; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 5px; 
+}
+
+.course-item p {
+  font-weight: bold;
+}
+
+.course-item a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+}

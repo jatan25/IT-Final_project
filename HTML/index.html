@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags to ensure proper character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page Title -->
+    <title>E-Learning Platform</title>
+    
+    <!-- Importing and using Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Link to external CSS files for styling the page -->
+    <link rel="stylesheet" href="../CSS/styles.css">  <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="../CSS/home.css">    <!-- Home Page Specific Styles -->
+</head>
+<body>
+    <!-- Header section containing the page title and navigation links -->
+    <header>
+        <h1>Welcome to LearnEasy</h1>
+        <nav>
+            <!-- Navigation links to different pages of the platform -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero section for the intro -->
+    <section class="hero">
+        <h2>Expand Your Knowledge with Top Courses</h2>
+        <p>
+            Join thousands of students learning from expert instructors. <br>
+            <strong>Enroll today!</strong>
+        </p>
+        <!-- Button linking to the contact page for the users to enroll -->
+        <button class="cta-button"><a href="contact.html">Enroll Now</a></button>
+    </section>
+    
+    <!-- Latest Courses section showcasing a few courses -->
+    <section class="latest-courses">
+        <h2>Latest Courses</h2>
+        <div class="course-gallery">
+            <!-- Individual course items with images and descriptions -->
+            <div class="course-item">
+                <img src="../Images/Course/course1.jpg" alt="Course 1">
+                <p><strong>Web Development</strong></p>
+            </div>
+            <div class="course-item">
+                <img src="../Images/Course/course2.jpg" alt="Course 2">
+                <p><strong>Data Science</strong></p>
+            </div>
+            <div class="course-item">
+                <img src="../Images/Course/course3.jpg" alt="Course 3">
+                <p><strong>Machine Learning</strong></p>
+            </div>
+            <div class="course-item">
+                <img src="../Images/Course/course4.jpg" alt="Course 4">
+                <p><strong>Graphic Design</strong></p>
+            </div>
+            <!-- "See More" link directing users to all the available course  -->
+            <div class="course-item">
+                <a href="courses.html">
+                    <img src="../Images/seemore.jpg" alt="Course 4">
+                    <p><strong>See More</strong></p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer section with copyright notice -->
+    <footer>
+        <p>&copy; 2025 LearnEasy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

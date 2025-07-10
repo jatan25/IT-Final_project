@@ -1,0 +1,133 @@
+/* Downloadable Resources */
+.downloadable-resources {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.downloadable-resources h2 {
+  margin-bottom: 20px;
+  color: #6a4c93; 
+}
+
+.downloadable-resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.downloadable-resources li {
+  margin-bottom: 15px;
+}
+
+.downloadable-resources a {
+  text-decoration: none;
+  color: #6a4c93; 
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.downloadable-resources a:hover {
+  text-decoration: underline;
+}
+
+/* Useful Study Materials */
+.resources {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.resources h2 {
+  color: #6a4c93; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resources ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.resources a {
+  color: #6a4c93; 
+  font-weight: bold;
+}
+
+.resources a:hover {
+  text-decoration: underline;
+}
+
+/* Video Tutorials */
+.video-tutorials {
+  text-align: center;
+  padding: 30px;
+  background-color: #f1f1f1;
+}
+
+.video-gallery {
+  display: flex; /* Changed from grid to flex */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  justify-content: center; /* Center the videos */
+  gap: 20px; /* Space between videos */
+}
+
+@media (max-width : 768px) {
+  .video-gallery{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.video-item {
+  text-align: center;
+  width: auto; /* Allow 2 videos per row */
+}
+
+.video-item video {
+  border-radius: 5px;
+  height: 20rem;
+}
+
+.video-item p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 40px 20px;
+  background-color: #f1f1f1;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6a4c93; 
+}
+
+details {
+  margin-bottom: 15px;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #6a4c93; 
+}
+
+details p {
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.faq h2 {
+  font-family: 'Poppins', sans-serif;
+}
