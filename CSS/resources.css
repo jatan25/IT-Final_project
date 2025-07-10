@@ -1,4 +1,4 @@
-/* Downloadable Resources */
+
 .downloadable-resources {
   padding: 40px 20px;
   background-color: #ffffff;
@@ -30,7 +30,7 @@
   text-decoration: underline;
 }
 
-/* Useful Study Materials */
+
 .resources {
   padding: 40px 20px;
   background-color: #ffffff;
@@ -64,7 +64,7 @@
   text-decoration: underline;
 }
 
-/* Video Tutorials */
+
 .video-tutorials {
   text-align: center;
   padding: 30px;
@@ -72,10 +72,10 @@
 }
 
 .video-gallery {
-  display: flex; /* Changed from grid to flex */
-  flex-wrap: wrap; /* Allow items to wrap onto the next line */
-  justify-content: center; /* Center the videos */
-  gap: 20px; /* Space between videos */
+  display: flex; 
+  flex-wrap: wrap; 
+  
+
 }
 
 @media (max-width : 768px) {
@@ -88,7 +88,7 @@
 
 .video-item {
   text-align: center;
-  width: auto; /* Allow 2 videos per row */
+  width: auto; 
 }
 
 .video-item video {
@@ -101,7 +101,7 @@
   margin-top: 10px;
 }
 
-/* FAQ Section */
+
 .faq {
   padding: 40px 20px;
   background-color: #f1f1f1;

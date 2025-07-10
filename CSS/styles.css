@@ -1,4 +1,4 @@
-/* Font Styles */
+
 * {
   font-family: 'Inter', sans-serif;
 }
@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, nav ul, .cta-button {
   font-family: 'Poppins', sans-serif;
 }
 
-/* General Styles */
+
 body {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
   color: #333;
 }
 
-/* Header Styles */
+
 header {
   background-color: #007bff;
   color: white;
@@ -23,7 +23,7 @@ header {
   text-align: center;
 }
 
-/* Navigation Styles */
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -51,7 +51,7 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Footer Styles */
+
 footer {
   text-align: center;
   background-color: #333;
@@ -60,7 +60,7 @@ footer {
   margin-top: 20px;
 }
 
-/* Responsive Design for Mobile */
+
 @media (max-width: 768px) {
   nav {
     margin-top: -1.5rem;

@@ -1,4 +1,4 @@
-/* Contact Form */
+
 .contact-form {
   width: 60%;
   margin: 30px auto;
@@ -47,11 +47,11 @@ label{
 
 textarea {
   resize: none; 
-  /* Prevent resizing */
+  
   height: 150px;
 }
 
-/* Success Message */
+
 .enrolled-msg {
   background-color: #f8f9fa;
   color: #28a745;

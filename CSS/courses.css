@@ -1,4 +1,4 @@
-/* Course Gallery */
+
 .course-list h2 {
   text-align: center;
 }
@@ -34,7 +34,7 @@
   font-weight: bold;
 }
 
-/* Course Item List Styling */
+
 .course-item ul {
   list-style-type: disc;
   padding-left: 15px;
@@ -55,7 +55,7 @@
   align-items: center;
 }
 
-/* Table Styling */
+
 .styled-table {
   width: 79.1%;
   border-collapse: collapse;
